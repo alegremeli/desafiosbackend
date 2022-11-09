@@ -1,7 +1,6 @@
 import fs from 'fs';
-
-const pathToFile = "./products.json" //Aquí voy a guardar mis productos
-
+import __dirName from '../utils.js'
+const pathToFile =__dirName+'/files/products.json'
 class Contenedor {  
 
     save = async(product)=>{ //Crea un producto
